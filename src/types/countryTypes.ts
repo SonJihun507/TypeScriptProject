@@ -185,4 +185,4 @@ type countryInfo = {
   };
 };
 
-export type basicInfoPick = Pick<countryInfo, "name" | "capital" | "flags">;
+export type basicInfo = Pick<countryInfo, "name" | "capital" | "flags">;
